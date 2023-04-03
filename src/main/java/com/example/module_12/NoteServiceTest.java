@@ -13,8 +13,6 @@ public class NoteServiceTest {
 
     @PostConstruct
     public void init(){
-        System.out.println("nen111111111");
-
         // Test add method
         Note note1 = new Note();
         note1.setTitle("Note 1");
